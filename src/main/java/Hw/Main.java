@@ -7,7 +7,7 @@ public class Main {
     Book progOnJavaForJunior = new Book("Программирование на Java для начинающих", 2021, vasilev);
     Author sierra=new Author("Kathy","Sierra");
     Book studyOfJava= new Book("Изучаем Java",2013,sierra);
-
+    //меняем год издания
         basicOfJava.setyearOfEdition(2021);
         progOnJavaForJunior.setyearOfEdition(2022);
         studyOfJava.setyearOfEdition(2022);
